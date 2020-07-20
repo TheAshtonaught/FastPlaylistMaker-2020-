@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoadingLibraryUI" customModule="Playlist_Cheetah" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grabing all of your music" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="5k3-JO-eJK">
+                    <rect key="frame" x="8" y="16" width="284" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="kMd-rp-bY1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="23"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cheetah0" translatesAutoresizingMaskIntoConstraints="NO" id="VUE-s1-0jn">
+                    <rect key="frame" x="82.5" y="126" width="135" height="63"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="VUE-s1-0jn" secondAttribute="height" multiplier="15:7" id="x5d-NS-yoA"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="VUE-s1-0jn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8mz-pL-LQI"/>
+                <constraint firstItem="5k3-JO-eJK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="IUJ-go-geG"/>
+                <constraint firstAttribute="trailing" secondItem="5k3-JO-eJK" secondAttribute="trailing" constant="8" id="JhP-u3-zfj"/>
+                <constraint firstItem="VUE-s1-0jn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Zbm-vr-FOr"/>
+                <constraint firstItem="5k3-JO-eJK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="cyV-Xm-Lfg"/>
+                <constraint firstItem="5k3-JO-eJK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="fRS-xL-f0o"/>
+                <constraint firstItem="VUE-s1-0jn" firstAttribute="top" secondItem="5k3-JO-eJK" secondAttribute="bottom" constant="60" id="hNc-uQ-Gjx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cheetahImage" destination="VUE-s1-0jn" id="NY1-PK-3FP"/>
+            </connections>
+            <point key="canvasLocation" x="4" y="-149"/>
+        </view>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aVh-4W-j9c">
+            <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+            <nil key="textColor"/>
+            <nil key="highlightedColor"/>
+            <point key="canvasLocation" x="169" y="50"/>
+        </label>
+    </objects>
+    <resources>
+        <image name="cheetah0" width="133" height="63"/>
+    </resources>
+</document>

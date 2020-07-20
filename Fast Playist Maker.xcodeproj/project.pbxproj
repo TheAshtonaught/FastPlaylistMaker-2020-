@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090D6B731ED64D1B002831CE /* CardContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D6B721ED64D1B002831CE /* CardContainer.swift */; };
+		090D6B751ED64D22002831CE /* CardContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090D6B741ED64D22002831CE /* CardContainer.xib */; };
+		090D6B7A1ED65080002831CE /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D6B791ED65080002831CE /* ExampleOverlayView.swift */; };
+		090D6B7D1ED6538F002831CE /* CreatePlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D6B7C1ED6538F002831CE /* CreatePlaylistViewController.swift */; };
+		090D6B7F1ED7DA88002831CE /* Extension+MutableConatainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D6B7E1ED7DA88002831CE /* Extension+MutableConatainers.swift */; };
+		0915EA721EBF4ACE00EDE3B5 /* Extension+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915EA711EBF4ACE00EDE3B5 /* Extension+UIImageView.swift */; };
+		0938808F1F2FD1CD008102DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0938808E1F2FD1CD008102DD /* GoogleService-Info.plist */; };
+		09413A781E9DD11C00F3783E /* LoginToAppleMusicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09413A771E9DD11C00F3783E /* LoginToAppleMusicVC.swift */; };
+		09413A7A1E9F418700F3783E /* SupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09413A791E9F418700F3783E /* SupportVC.swift */; };
+		094710621E485E1300DFBE4A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094710611E485E1300DFBE4A /* Reachability.swift */; };
+		094994CF1E7E3A2E00024C5A /* LastFmConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094994CE1E7E3A2E00024C5A /* LastFmConvenience.swift */; };
+		094A17601E3F1A610040255E /* AppleMusicConvience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094A175F1E3F1A610040255E /* AppleMusicConvience.swift */; };
+		094A17621E3F1A760040255E /* AppleMusicConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094A17611E3F1A760040255E /* AppleMusicConstants.swift */; };
+		094A17641E3F1C380040255E /* ApiConvience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094A17631E3F1C380040255E /* ApiConvience.swift */; };
+		094A17661E3F1C6A0040255E /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094A17651E3F1C6A0040255E /* ApiConstants.swift */; };
+		094A17681E3F3D920040255E /* AMSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094A17671E3F3D920040255E /* AMSearchVC.swift */; };
+		094F99A01F1FC43800321CC6 /* Extension+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F999F1F1FC43800321CC6 /* Extension+URL.swift */; };
+		094F99A21F1FCDF500321CC6 /* SpotifyConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F99A11F1FCDF500321CC6 /* SpotifyConvenience.swift */; };
+		094F99A41F1FCE0800321CC6 /* spotifyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F99A31F1FCE0800321CC6 /* spotifyConstants.swift */; };
+		094F99A61F22513200321CC6 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F99A51F22513200321CC6 /* Extension+String.swift */; };
+		095356BA1E2CAEB700F70B83 /* DraggableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095356B91E2CAEB700F70B83 /* DraggableImage.swift */; };
+		096E81781EDF3012000C7271 /* Extension+UIimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096E81771EDF3012000C7271 /* Extension+UIimage.swift */; };
+		097300D224B030FE00C7361B /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 097300D124B030FE00C7361B /* OverlayView.xib */; };
+		097300DA24BDFB9600C7361B /* PlaylistCheetahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097300D924BDFB9600C7361B /* PlaylistCheetahTests.swift */; };
+		0977A5751E2B776F00C554A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0977A5741E2B776F00C554A8 /* AppDelegate.swift */; };
+		0977A57A1E2B776F00C554A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0977A5781E2B776F00C554A8 /* Main.storyboard */; };
+		0977A57F1E2B777000C554A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0977A57D1E2B777000C554A8 /* LaunchScreen.storyboard */; };
+		0977A5871E2B8CB000C554A8 /* CreatePlaylistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0977A5861E2B8CB000C554A8 /* CreatePlaylistVC.swift */; };
+		0977A58A1E2B8E7400C554A8 /* PlaylistTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0977A5891E2B8E7400C554A8 /* PlaylistTableVC.swift */; };
+		097D30A01EE5169100AC880A /* LoadingLibraryUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D309F1EE5169100AC880A /* LoadingLibraryUI.swift */; };
+		097D30A21EE516C000AC880A /* FetchLibrary.xib in Resources */ = {isa = PBXBuildFile; fileRef = 097D30A11EE516C000AC880A /* FetchLibrary.xib */; };
+		098037071E758561007C6C91 /* AddSongsToPlaylistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098037061E758561007C6C91 /* AddSongsToPlaylistVC.swift */; };
+		0981049C1E3DBB5D00070293 /* SongTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0981049B1E3DBB5D00070293 /* SongTableCell.swift */; };
+		09B7C0021E3806C7006FFE86 /* SongListTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B7C0011E3806C7006FFE86 /* SongListTableVC.swift */; };
+		09B7C0051E380D29006FFE86 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09B7C0031E380D29006FFE86 /* Model.xcdatamodeld */; };
+		09B7C00A1E381A18006FFE86 /* SavedSong+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B7C0061E381A18006FFE86 /* SavedSong+CoreDataClass.swift */; };
+		09B7C00B1E381A18006FFE86 /* SavedSong+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B7C0071E381A18006FFE86 /* SavedSong+CoreDataProperties.swift */; };
+		09B7C00C1E381A18006FFE86 /* Playlist+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B7C0081E381A18006FFE86 /* Playlist+CoreDataClass.swift */; };
+		09B7C00D1E381A18006FFE86 /* Playlist+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B7C0091E381A18006FFE86 /* Playlist+CoreDataProperties.swift */; };
+		09B7C00F1E381ABB006FFE86 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B7C00E1E381ABB006FFE86 /* CoreDataStack.swift */; };
+		09B973371E7E728000E27E3D /* LastFmConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B973361E7E728000E27E3D /* LastFmConstants.swift */; };
+		09C149361E330D8300742BE1 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C149351E330D8300742BE1 /* Song.swift */; };
+		09D368431F069E940047F157 /* DynamicPlaylistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D368421F069E930047F157 /* DynamicPlaylistVC.swift */; };
+		09D5A6491E911E750058661A /* SimilarSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D5A6481E911E750058661A /* SimilarSong.swift */; };
+		09D5C0281EC9771000A38280 /* MusicPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D5C0271EC9771000A38280 /* MusicPlayerVC.swift */; };
+		09D5C02A1ECABFA300A38280 /* Extension+UITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D5C0291ECABFA300A38280 /* Extension+UITabBarController.swift */; };
+		09D5C04C1ECFB08900A38280 /* SecondPlaylistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D5C04B1ECFB08900A38280 /* SecondPlaylistVC.swift */; };
+		09DC6BAC1EC897C1009872A2 /* InteractivePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DC6BAA1EC897C1009872A2 /* InteractivePlayerView.swift */; };
+		09DC6BAD1EC897C1009872A2 /* InteractivePlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09DC6BAB1EC897C1009872A2 /* InteractivePlayerView.xib */; };
+		09E3DEAF1E42B7130019C163 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E3DEAE1E42B7130019C163 /* Global.swift */; };
+		09F27F2E1E302D9D00F763AD /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F27F2D1E302D9D00F763AD /* BorderedButton.swift */; };
+		09FB4A041EB3FFA5007A16A5 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB4A031EB3FFA5007A16A5 /* MusicPlayerViewController.swift */; };
+		09FB4A061EB438FF007A16A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FB4A051EB438FF007A16A5 /* Assets.xcassets */; };
+		09FC72B81E3C061900C08A06 /* CoreDataTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FC72B71E3C061900C08A06 /* CoreDataTableVC.swift */; };
+		F4F0F3DA5451E9D4710C4029 /* Pods_Fast_Playist_Maker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459DCB521CA5E17F918EAE99 /* Pods_Fast_Playist_Maker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		097300DC24BDFB9600C7361B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0977A5691E2B776F00C554A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0977A5701E2B776F00C554A8;
+			remoteInfo = "Fast Playist Maker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090D6B721ED64D1B002831CE /* CardContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardContainer.swift; sourceTree = "<group>"; };
+		090D6B741ED64D22002831CE /* CardContainer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardContainer.xib; sourceTree = "<group>"; };
+		090D6B791ED65080002831CE /* ExampleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
+		090D6B7C1ED6538F002831CE /* CreatePlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePlaylistViewController.swift; sourceTree = "<group>"; };
+		090D6B7E1ED7DA88002831CE /* Extension+MutableConatainers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+MutableConatainers.swift"; sourceTree = "<group>"; };
+		0915EA711EBF4ACE00EDE3B5 /* Extension+UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIImageView.swift"; sourceTree = "<group>"; };
+		0938808E1F2FD1CD008102DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		09413A771E9DD11C00F3783E /* LoginToAppleMusicVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginToAppleMusicVC.swift; sourceTree = "<group>"; };
+		09413A791E9F418700F3783E /* SupportVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportVC.swift; sourceTree = "<group>"; };
+		094710611E485E1300DFBE4A /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		094994CE1E7E3A2E00024C5A /* LastFmConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastFmConvenience.swift; sourceTree = "<group>"; };
+		094A175F1E3F1A610040255E /* AppleMusicConvience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMusicConvience.swift; sourceTree = "<group>"; };
+		094A17611E3F1A760040255E /* AppleMusicConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMusicConstants.swift; sourceTree = "<group>"; };
+		094A17631E3F1C380040255E /* ApiConvience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConvience.swift; sourceTree = "<group>"; };
+		094A17651E3F1C6A0040255E /* ApiConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		094A17671E3F3D920040255E /* AMSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMSearchVC.swift; sourceTree = "<group>"; };
+		094F999F1F1FC43800321CC6 /* Extension+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+URL.swift"; sourceTree = "<group>"; };
+		094F99A11F1FCDF500321CC6 /* SpotifyConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyConvenience.swift; sourceTree = "<group>"; };
+		094F99A31F1FCE0800321CC6 /* spotifyConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = spotifyConstants.swift; sourceTree = "<group>"; };
+		094F99A51F22513200321CC6 /* Extension+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		095356B91E2CAEB700F70B83 /* DraggableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImage.swift; sourceTree = "<group>"; };
+		096E81771EDF3012000C7271 /* Extension+UIimage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIimage.swift"; sourceTree = "<group>"; };
+		097300D124B030FE00C7361B /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		097300D724BDFB9500C7361B /* PlaylistCheetahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaylistCheetahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		097300D924BDFB9600C7361B /* PlaylistCheetahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCheetahTests.swift; sourceTree = "<group>"; };
+		097300DB24BDFB9600C7361B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0977A5711E2B776F00C554A8 /* Playlist Cheetah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playlist Cheetah.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0977A5741E2B776F00C554A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0977A5791E2B776F00C554A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0977A57E1E2B777000C554A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0977A5801E2B777000C554A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0977A5861E2B8CB000C554A8 /* CreatePlaylistVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePlaylistVC.swift; sourceTree = "<group>"; };
+		0977A5891E2B8E7400C554A8 /* PlaylistTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistTableVC.swift; sourceTree = "<group>"; };
+		097D309F1EE5169100AC880A /* LoadingLibraryUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingLibraryUI.swift; sourceTree = "<group>"; };
+		097D30A11EE516C000AC880A /* FetchLibrary.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FetchLibrary.xib; sourceTree = "<group>"; };
+		098037061E758561007C6C91 /* AddSongsToPlaylistVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSongsToPlaylistVC.swift; sourceTree = "<group>"; };
+		0981049B1E3DBB5D00070293 /* SongTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableCell.swift; sourceTree = "<group>"; };
+		09B7C0011E3806C7006FFE86 /* SongListTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListTableVC.swift; sourceTree = "<group>"; };
+		09B7C0041E380D29006FFE86 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		09B7C0061E381A18006FFE86 /* SavedSong+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SavedSong+CoreDataClass.swift"; path = "../SavedSong+CoreDataClass.swift"; sourceTree = "<group>"; };
+		09B7C0071E381A18006FFE86 /* SavedSong+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SavedSong+CoreDataProperties.swift"; path = "../SavedSong+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		09B7C0081E381A18006FFE86 /* Playlist+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Playlist+CoreDataClass.swift"; path = "../Playlist+CoreDataClass.swift"; sourceTree = "<group>"; };
+		09B7C0091E381A18006FFE86 /* Playlist+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Playlist+CoreDataProperties.swift"; path = "../Playlist+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		09B7C00E1E381ABB006FFE86 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		09B973361E7E728000E27E3D /* LastFmConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastFmConstants.swift; sourceTree = "<group>"; };
+		09C149351E330D8300742BE1 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		09C203881EED398A009AA27C /* Playlist Cheetah.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Playlist Cheetah.entitlements"; sourceTree = "<group>"; };
+		09D368421F069E930047F157 /* DynamicPlaylistVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicPlaylistVC.swift; sourceTree = "<group>"; };
+		09D5A6481E911E750058661A /* SimilarSong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimilarSong.swift; sourceTree = "<group>"; };
+		09D5C0271EC9771000A38280 /* MusicPlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayerVC.swift; sourceTree = "<group>"; };
+		09D5C0291ECABFA300A38280 /* Extension+UITabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UITabBarController.swift"; sourceTree = "<group>"; };
+		09D5C04B1ECFB08900A38280 /* SecondPlaylistVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPlaylistVC.swift; sourceTree = "<group>"; };
+		09DC6BAA1EC897C1009872A2 /* InteractivePlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractivePlayerView.swift; sourceTree = "<group>"; };
+		09DC6BAB1EC897C1009872A2 /* InteractivePlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InteractivePlayerView.xib; sourceTree = "<group>"; };
+		09E3DEAE1E42B7130019C163 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		09F27F2D1E302D9D00F763AD /* BorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		09FB4A031EB3FFA5007A16A5 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+		09FB4A051EB438FF007A16A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09FC72B71E3C061900C08A06 /* CoreDataTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTableVC.swift; sourceTree = "<group>"; };
+		459DCB521CA5E17F918EAE99 /* Pods_Fast_Playist_Maker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fast_Playist_Maker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB943ECD3704C5EB4664F1D /* Pods-Fast Playist Maker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fast Playist Maker.debug.xcconfig"; path = "Target Support Files/Pods-Fast Playist Maker/Pods-Fast Playist Maker.debug.xcconfig"; sourceTree = "<group>"; };
+		B9AE36E19FD2655B73D96C12 /* Pods-Fast Playist Maker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fast Playist Maker.release.xcconfig"; path = "Target Support Files/Pods-Fast Playist Maker/Pods-Fast Playist Maker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		097300D424BDFB9500C7361B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0977A56E1E2B776F00C554A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F0F3DA5451E9D4710C4029 /* Pods_Fast_Playist_Maker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090D6B711ED64D05002831CE /* CardContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				090D6B721ED64D1B002831CE /* CardContainer.swift */,
+				090D6B741ED64D22002831CE /* CardContainer.xib */,
+			);
+			name = CardContainerView;
+			sourceTree = "<group>";
+		};
+		090D6B7B1ED65089002831CE /* OverlayView */ = {
+			isa = PBXGroup;
+			children = (
+				090D6B791ED65080002831CE /* ExampleOverlayView.swift */,
+				097300D124B030FE00C7361B /* OverlayView.xib */,
+			);
+			name = OverlayView;
+			sourceTree = "<group>";
+		};
+		0915EA701EBF4AAE00EDE3B5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0915EA711EBF4ACE00EDE3B5 /* Extension+UIImageView.swift */,
+				09D5C0291ECABFA300A38280 /* Extension+UITabBarController.swift */,
+				090D6B7E1ED7DA88002831CE /* Extension+MutableConatainers.swift */,
+				096E81771EDF3012000C7271 /* Extension+UIimage.swift */,
+				094F999F1F1FC43800321CC6 /* Extension+URL.swift */,
+				094F99A51F22513200321CC6 /* Extension+String.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		094710631E485E3600DFBE4A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0977A5741E2B776F00C554A8 /* AppDelegate.swift */,
+				0977A5801E2B777000C554A8 /* Info.plist */,
+				0938808E1F2FD1CD008102DD /* GoogleService-Info.plist */,
+				09C203881EED398A009AA27C /* Playlist Cheetah.entitlements */,
+				0977A5781E2B776F00C554A8 /* Main.storyboard */,
+				09FB4A051EB438FF007A16A5 /* Assets.xcassets */,
+				094710611E485E1300DFBE4A /* Reachability.swift */,
+				0977A57D1E2B777000C554A8 /* LaunchScreen.storyboard */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		094A175D1E3F1A1E0040255E /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				09C149351E330D8300742BE1 /* Song.swift */,
+				09B7C0081E381A18006FFE86 /* Playlist+CoreDataClass.swift */,
+				09B7C0061E381A18006FFE86 /* SavedSong+CoreDataClass.swift */,
+				09E3DEAE1E42B7130019C163 /* Global.swift */,
+				09D5A6481E911E750058661A /* SimilarSong.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		094A175E1E3F1A360040255E /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				094A175F1E3F1A610040255E /* AppleMusicConvience.swift */,
+				094A17611E3F1A760040255E /* AppleMusicConstants.swift */,
+				094A17631E3F1C380040255E /* ApiConvience.swift */,
+				094A17651E3F1C6A0040255E /* ApiConstants.swift */,
+				094994CE1E7E3A2E00024C5A /* LastFmConvenience.swift */,
+				09B973361E7E728000E27E3D /* LastFmConstants.swift */,
+				094F99A11F1FCDF500321CC6 /* SpotifyConvenience.swift */,
+				094F99A31F1FCE0800321CC6 /* spotifyConstants.swift */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
+		095356B71E2CAE6A00F70B83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09D3683F1F02CEF60047F157 /* DynamicPlaylistView */,
+				097D309E1EE5163300AC880A /* Cheetah Animation */,
+				090D6B7B1ED65089002831CE /* OverlayView */,
+				090D6B711ED64D05002831CE /* CardContainerView */,
+				09DC6BA91EC89728009872A2 /* MusicPlayer */,
+				095356B91E2CAEB700F70B83 /* DraggableImage.swift */,
+				09F27F2D1E302D9D00F763AD /* BorderedButton.swift */,
+				0981049B1E3DBB5D00070293 /* SongTableCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		095356B81E2CAE7300F70B83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				094A175E1E3F1A360040255E /* Clients */,
+				094A175D1E3F1A1E0040255E /* Objects */,
+				09B7C0101E381D8A006FFE86 /* Properties */,
+				09B7C0031E380D29006FFE86 /* Model.xcdatamodeld */,
+				09B7C00E1E381ABB006FFE86 /* CoreDataStack.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		097300D824BDFB9600C7361B /* PlaylistCheetahTests */ = {
+			isa = PBXGroup;
+			children = (
+				097300D924BDFB9600C7361B /* PlaylistCheetahTests.swift */,
+				097300DB24BDFB9600C7361B /* Info.plist */,
+			);
+			path = PlaylistCheetahTests;
+			sourceTree = "<group>";
+		};
+		0977A5681E2B776F00C554A8 = {
+			isa = PBXGroup;
+			children = (
+				0977A5731E2B776F00C554A8 /* Fast Playist Maker */,
+				097300D824BDFB9600C7361B /* PlaylistCheetahTests */,
+				0977A5721E2B776F00C554A8 /* Products */,
+				986CB7B58D26EE6E210A7031 /* Pods */,
+				80031E826DDDFF0C8F69105E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0977A5721E2B776F00C554A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0977A5711E2B776F00C554A8 /* Playlist Cheetah.app */,
+				097300D724BDFB9500C7361B /* PlaylistCheetahTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0977A5731E2B776F00C554A8 /* Fast Playist Maker */ = {
+			isa = PBXGroup;
+			children = (
+				095356B81E2CAE7300F70B83 /* Model */,
+				095356B71E2CAE6A00F70B83 /* View */,
+				0977A5881E2B8E4900C554A8 /* Controller */,
+				0915EA701EBF4AAE00EDE3B5 /* Helper */,
+				094710631E485E3600DFBE4A /* Utilities */,
+			);
+			path = "Fast Playist Maker";
+			sourceTree = "<group>";
+		};
+		0977A5881E2B8E4900C554A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				090D6B7C1ED6538F002831CE /* CreatePlaylistViewController.swift */,
+				0977A5861E2B8CB000C554A8 /* CreatePlaylistVC.swift */,
+				0977A5891E2B8E7400C554A8 /* PlaylistTableVC.swift */,
+				09B7C0011E3806C7006FFE86 /* SongListTableVC.swift */,
+				09FC72B71E3C061900C08A06 /* CoreDataTableVC.swift */,
+				094A17671E3F3D920040255E /* AMSearchVC.swift */,
+				098037061E758561007C6C91 /* AddSongsToPlaylistVC.swift */,
+				09413A771E9DD11C00F3783E /* LoginToAppleMusicVC.swift */,
+				09413A791E9F418700F3783E /* SupportVC.swift */,
+				09FB4A031EB3FFA5007A16A5 /* MusicPlayerViewController.swift */,
+				09D5C0271EC9771000A38280 /* MusicPlayerVC.swift */,
+				09D5C04B1ECFB08900A38280 /* SecondPlaylistVC.swift */,
+				09D368421F069E930047F157 /* DynamicPlaylistVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		097D309E1EE5163300AC880A /* Cheetah Animation */ = {
+			isa = PBXGroup;
+			children = (
+				097D309F1EE5169100AC880A /* LoadingLibraryUI.swift */,
+				097D30A11EE516C000AC880A /* FetchLibrary.xib */,
+			);
+			name = "Cheetah Animation";
+			sourceTree = "<group>";
+		};
+		09B7C0101E381D8A006FFE86 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				09B7C0071E381A18006FFE86 /* SavedSong+CoreDataProperties.swift */,
+				09B7C0091E381A18006FFE86 /* Playlist+CoreDataProperties.swift */,
+			);
+			name = Properties;
+			sourceTree = "<group>";
+		};
+		09D3683F1F02CEF60047F157 /* DynamicPlaylistView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DynamicPlaylistView;
+			sourceTree = "<group>";
+		};
+		09DC6BA91EC89728009872A2 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				09DC6BAA1EC897C1009872A2 /* InteractivePlayerView.swift */,
+				09DC6BAB1EC897C1009872A2 /* InteractivePlayerView.xib */,
+			);
+			name = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		80031E826DDDFF0C8F69105E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				459DCB521CA5E17F918EAE99 /* Pods_Fast_Playist_Maker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		986CB7B58D26EE6E210A7031 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BB943ECD3704C5EB4664F1D /* Pods-Fast Playist Maker.debug.xcconfig */,
+				B9AE36E19FD2655B73D96C12 /* Pods-Fast Playist Maker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		097300D624BDFB9500C7361B /* PlaylistCheetahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097300DE24BDFB9600C7361B /* Build configuration list for PBXNativeTarget "PlaylistCheetahTests" */;
+			buildPhases = (
+				097300D324BDFB9500C7361B /* Sources */,
+				097300D424BDFB9500C7361B /* Frameworks */,
+				097300D524BDFB9500C7361B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				097300DD24BDFB9600C7361B /* PBXTargetDependency */,
+			);
+			name = PlaylistCheetahTests;
+			productName = PlaylistCheetahTests;
+			productReference = 097300D724BDFB9500C7361B /* PlaylistCheetahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0977A5701E2B776F00C554A8 /* FastPlaylistMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0977A5831E2B777000C554A8 /* Build configuration list for PBXNativeTarget "FastPlaylistMaker" */;
+			buildPhases = (
+				229CEF00B4C3F885A38536B7 /* [CP] Check Pods Manifest.lock */,
+				0977A56D1E2B776F00C554A8 /* Sources */,
+				0977A56E1E2B776F00C554A8 /* Frameworks */,
+				0977A56F1E2B776F00C554A8 /* Resources */,
+				A3C17CCFAF751FB3895CD032 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastPlaylistMaker;
+			productName = "Fast Playist Maker";
+			productReference = 0977A5711E2B776F00C554A8 /* Playlist Cheetah.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0977A5691E2B776F00C554A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ashton Morgan";
+				TargetAttributes = {
+					097300D624BDFB9500C7361B = {
+						CreatedOnToolsVersion = 11.5;
+						DevelopmentTeam = XBHTHFFDG2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0977A5701E2B776F00C554A8;
+					};
+					0977A5701E2B776F00C554A8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Z89QL7GP4Y;
+						LastSwiftMigration = 1150;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0977A56C1E2B776F00C554A8 /* Build configuration list for PBXProject "Fast Playist Maker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0977A5681E2B776F00C554A8;
+			productRefGroup = 0977A5721E2B776F00C554A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0977A5701E2B776F00C554A8 /* FastPlaylistMaker */,
+				097300D624BDFB9500C7361B /* PlaylistCheetahTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		097300D524BDFB9500C7361B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0977A56F1E2B776F00C554A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DC6BAD1EC897C1009872A2 /* InteractivePlayerView.xib in Resources */,
+				0938808F1F2FD1CD008102DD /* GoogleService-Info.plist in Resources */,
+				097D30A21EE516C000AC880A /* FetchLibrary.xib in Resources */,
+				090D6B751ED64D22002831CE /* CardContainer.xib in Resources */,
+				0977A57F1E2B777000C554A8 /* LaunchScreen.storyboard in Resources */,
+				097300D224B030FE00C7361B /* OverlayView.xib in Resources */,
+				09FB4A061EB438FF007A16A5 /* Assets.xcassets in Resources */,
+				0977A57A1E2B776F00C554A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		229CEF00B4C3F885A38536B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fast Playist Maker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3C17CCFAF751FB3895CD032 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fast Playist Maker/Pods-Fast Playist Maker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fast Playist Maker/Pods-Fast Playist Maker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		097300D324BDFB9500C7361B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097300DA24BDFB9600C7361B /* PlaylistCheetahTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0977A56D1E2B776F00C554A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D5C04C1ECFB08900A38280 /* SecondPlaylistVC.swift in Sources */,
+				094A17641E3F1C380040255E /* ApiConvience.swift in Sources */,
+				09B7C00D1E381A18006FFE86 /* Playlist+CoreDataProperties.swift in Sources */,
+				09C149361E330D8300742BE1 /* Song.swift in Sources */,
+				090D6B7F1ED7DA88002831CE /* Extension+MutableConatainers.swift in Sources */,
+				094F99A61F22513200321CC6 /* Extension+String.swift in Sources */,
+				0977A5871E2B8CB000C554A8 /* CreatePlaylistVC.swift in Sources */,
+				09F27F2E1E302D9D00F763AD /* BorderedButton.swift in Sources */,
+				094F99A01F1FC43800321CC6 /* Extension+URL.swift in Sources */,
+				094F99A41F1FCE0800321CC6 /* spotifyConstants.swift in Sources */,
+				098037071E758561007C6C91 /* AddSongsToPlaylistVC.swift in Sources */,
+				09D5C02A1ECABFA300A38280 /* Extension+UITabBarController.swift in Sources */,
+				09E3DEAF1E42B7130019C163 /* Global.swift in Sources */,
+				097D30A01EE5169100AC880A /* LoadingLibraryUI.swift in Sources */,
+				09413A781E9DD11C00F3783E /* LoginToAppleMusicVC.swift in Sources */,
+				09B7C0021E3806C7006FFE86 /* SongListTableVC.swift in Sources */,
+				09B7C00C1E381A18006FFE86 /* Playlist+CoreDataClass.swift in Sources */,
+				094A17601E3F1A610040255E /* AppleMusicConvience.swift in Sources */,
+				09D5A6491E911E750058661A /* SimilarSong.swift in Sources */,
+				094A17621E3F1A760040255E /* AppleMusicConstants.swift in Sources */,
+				09B7C00F1E381ABB006FFE86 /* CoreDataStack.swift in Sources */,
+				094A17681E3F3D920040255E /* AMSearchVC.swift in Sources */,
+				09FC72B81E3C061900C08A06 /* CoreDataTableVC.swift in Sources */,
+				090D6B7D1ED6538F002831CE /* CreatePlaylistViewController.swift in Sources */,
+				094994CF1E7E3A2E00024C5A /* LastFmConvenience.swift in Sources */,
+				09B973371E7E728000E27E3D /* LastFmConstants.swift in Sources */,
+				09FB4A041EB3FFA5007A16A5 /* MusicPlayerViewController.swift in Sources */,
+				09D368431F069E940047F157 /* DynamicPlaylistVC.swift in Sources */,
+				094A17661E3F1C6A0040255E /* ApiConstants.swift in Sources */,
+				09B7C00B1E381A18006FFE86 /* SavedSong+CoreDataProperties.swift in Sources */,
+				09D5C0281EC9771000A38280 /* MusicPlayerVC.swift in Sources */,
+				09413A7A1E9F418700F3783E /* SupportVC.swift in Sources */,
+				09B7C0051E380D29006FFE86 /* Model.xcdatamodeld in Sources */,
+				09B7C00A1E381A18006FFE86 /* SavedSong+CoreDataClass.swift in Sources */,
+				094F99A21F1FCDF500321CC6 /* SpotifyConvenience.swift in Sources */,
+				0977A5751E2B776F00C554A8 /* AppDelegate.swift in Sources */,
+				0915EA721EBF4ACE00EDE3B5 /* Extension+UIImageView.swift in Sources */,
+				094710621E485E1300DFBE4A /* Reachability.swift in Sources */,
+				09DC6BAC1EC897C1009872A2 /* InteractivePlayerView.swift in Sources */,
+				090D6B731ED64D1B002831CE /* CardContainer.swift in Sources */,
+				090D6B7A1ED65080002831CE /* ExampleOverlayView.swift in Sources */,
+				0981049C1E3DBB5D00070293 /* SongTableCell.swift in Sources */,
+				096E81781EDF3012000C7271 /* Extension+UIimage.swift in Sources */,
+				095356BA1E2CAEB700F70B83 /* DraggableImage.swift in Sources */,
+				0977A58A1E2B8E7400C554A8 /* PlaylistTableVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		097300DD24BDFB9600C7361B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0977A5701E2B776F00C554A8 /* FastPlaylistMaker */;
+			targetProxy = 097300DC24BDFB9600C7361B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0977A5781E2B776F00C554A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0977A5791E2B776F00C554A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0977A57D1E2B777000C554A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0977A57E1E2B777000C554A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		097300DF24BDFB9600C7361B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBHTHFFDG2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/Pods/Firebase/CoreOnly/Sources";
+				INFOPLIST_FILE = PlaylistCheetahTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = algebet.PlaylistCheetahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Playlist Cheetah.app/Playlist Cheetah";
+			};
+			name = Debug;
+		};
+		097300E024BDFB9600C7361B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBHTHFFDG2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/Pods/Firebase/CoreOnly/Sources";
+				INFOPLIST_FILE = PlaylistCheetahTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = algebet.PlaylistCheetahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Playlist Cheetah.app/Playlist Cheetah";
+			};
+			name = Release;
+		};
+		0977A5811E2B777000C554A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0977A5821E2B777000C554A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0977A5841E2B777000C554A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB943ECD3704C5EB4664F1D /* Pods-Fast Playist Maker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Fast Playist Maker/Playlist Cheetah.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z89QL7GP4Y;
+				INFOPLIST_FILE = "Fast Playist Maker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.algebet.playlistcheetah1Xz;
+				PRODUCT_NAME = "Playlist Cheetah";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0977A5851E2B777000C554A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9AE36E19FD2655B73D96C12 /* Pods-Fast Playist Maker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Fast Playist Maker/Playlist Cheetah.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z89QL7GP4Y;
+				INFOPLIST_FILE = "Fast Playist Maker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.algebet.playlistcheetah1Xz;
+				PRODUCT_NAME = "Playlist Cheetah";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		097300DE24BDFB9600C7361B /* Build configuration list for PBXNativeTarget "PlaylistCheetahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097300DF24BDFB9600C7361B /* Debug */,
+				097300E024BDFB9600C7361B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0977A56C1E2B776F00C554A8 /* Build configuration list for PBXProject "Fast Playist Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0977A5811E2B777000C554A8 /* Debug */,
+				0977A5821E2B777000C554A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0977A5831E2B777000C554A8 /* Build configuration list for PBXNativeTarget "FastPlaylistMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0977A5841E2B777000C554A8 /* Debug */,
+				0977A5851E2B777000C554A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09B7C0031E380D29006FFE86 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09B7C0041E380D29006FFE86 /* Model.xcdatamodel */,
+			);
+			currentVersion = 09B7C0041E380D29006FFE86 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0977A5691E2B776F00C554A8 /* Project object */;
+}
